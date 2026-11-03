@@ -85,14 +85,13 @@ the document.
    The DMM WG has no specific implementation policy applicable to
    this document known to the shepherd. The document does not include
    an Implementation Status section, and no implementations are
-   listed in it. [TODO: confirm with the authors whether any existing
-   or planned implementations of the "ietf-ac-udp-tunnel" module are
-   known; the confirmation mail to the authors has been drafted but
-   not yet sent. If none are known, state: "The shepherd is not aware
-   of implementations of this specific module; the model augments the
-   ACaaS models of RFC 9834, for which implementation experience
-   exists. The absence of an implementation section is not considered
-   a blocker for a YANG service model extension of this kind."]
+   listed in it. At this time, no implementations of the
+   "ietf-ac-udp-tunnel" module have been observed, and no
+   implementation report has been received from the authors. The
+   model augments the ACaaS models of RFC 9834, for which
+   implementation experience exists, and the absence of an
+   implementation section is not considered a blocker for a YANG
+   service model extension of this kind.
 
 ## Additional Reviews
 
@@ -184,7 +183,7 @@ the document.
     be handed off to the responsible Area Director.
 
     [TODO: shepherd's final confirmation, once the [TODO] items in
-    4, 6/7, 14, and 15/16 are closed. Suggested text: "In the
+    6/7, 14, and 15/16 are closed. Suggested text: "In the
     shepherd's opinion the document is clearly written, complete,
     technically accurate, and correctly designed as a small augment
     of the RFC 9834 ACaaS model, and is ready to be handed off to the
@@ -256,15 +255,20 @@ the document.
 
     The adoption call and WGLC announcements reminded participants of
     the BCP 79 obligations, and the document itself is submitted in
-    full conformance with BCP 78 and BCP 79. No IPR disclosures
-    referencing this document are known to the shepherd, and no IPR
-    discussion has taken place on the list. [TODO: collect/confirm
-    each author's IPR confirmation in reply to the shepherd's mail
-    before publication request — the confirmation mail has been
-    drafted but not yet sent. TODO: verify once more in the
-    Datatracker IPR search at submission time; the shepherd was
-    unable to retrieve the IPR search page while preparing the
-    original draft of this write-up.]
+    full conformance with BCP 78 and BCP 79. In their replies to the
+    WGLC announcement on the DMM mailing list (22 September 2026),
+    two of the three authors confirmed that they are not aware of any
+    IPR applicable to this document: Uma Chunduri stated "Not aware
+    of any IPRs on this document", and Luis M. Contreras stated that
+    he was "not being aware of any IPR applicable to it". [TODO:
+    obtain the same confirmation from the remaining author, John
+    Kaippallimalil, whose WGLC reply expressed support but did not
+    address IPR.] No IPR disclosures referencing this document are
+    known to the shepherd, and no other IPR discussion has taken
+    place on the list. [TODO: verify once more in the Datatracker
+    IPR search at submission time; the shepherd was unable to
+    retrieve the IPR search page while preparing the original draft
+    of this write-up.]
 
 16. Confirm that each author, editor, and contributor has shown their
     willingness to be listed as such. If the total number of authors
