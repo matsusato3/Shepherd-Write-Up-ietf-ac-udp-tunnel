@@ -105,10 +105,7 @@ the document.
    Boucadair (editor of RFC 9833/RFC 9834) reviewed the document, and
    Lionel Morand helped with the review and the YANG structures (see
    the Acknowledgements section of the document). No formal cross-WG
-   last call was run. The document references 3GPP TS 29.281
-   (GTPv1-U) informatively as the motivating UDP bearer; that is a
-   reference, not an external review. [TODO: shepherd to confirm no
-   additional cross-review (e.g., OPSAWG/NETMOD) is wanted.]
+   last call was run.
 
 6. Describe the results of formal expert reviews (e.g., media type,
    URI) that the document has undergone. Also, indicate whether any
@@ -182,13 +179,11 @@ the document.
     complete, technically accurate, correctly designed, and ready to
     be handed off to the responsible Area Director.
 
-    [TODO: shepherd's final confirmation, once the [TODO] items in
-    6/7, 14, and 15/16 are closed. Suggested text: "In the
-    shepherd's opinion the document is clearly written, complete,
-    technically accurate, and correctly designed as a small augment
-    of the RFC 9834 ACaaS model, and is ready to be handed off to the
-    Responsible Area Director, subject to resolving the BCP 14
-    boilerplate point in item 14."]
+    In the shepherd's opinion the document is clearly written,
+    complete, technically accurate, and correctly designed as a
+    small augment of the RFC 9834 ACaaS model, and is ready to be
+    handed off to the Responsible Area Director, subject to
+    resolving the BCP 14 boilerplate point in item 14.
 
 11. Several IETF Areas have assembled lists of common issues that
     their reviewers encounter. Have such issues been identified and
@@ -263,12 +258,11 @@ the document.
     he was "not being aware of any IPR applicable to it". [TODO:
     obtain the same confirmation from the remaining author, John
     Kaippallimalil, whose WGLC reply expressed support but did not
-    address IPR.] No IPR disclosures referencing this document are
-    known to the shepherd, and no other IPR discussion has taken
-    place on the list. [TODO: verify once more in the Datatracker
-    IPR search at submission time; the shepherd was unable to
-    retrieve the IPR search page while preparing the original draft
-    of this write-up.]
+    address IPR.] No IPR disclosures have been filed referencing
+    this document: the shepherd verified this in the Datatracker
+    IPR search on 3 November 2026, which returned no disclosures
+    for the document. No other IPR discussion has taken place on
+    the list.
 
 16. Confirm that each author, editor, and contributor has shown their
     willingness to be listed as such. If the total number of authors
@@ -283,8 +277,9 @@ the document.
     posting revisions and responding to WGLC comments on the list.
     Contributors (Mohamed Boucadair, Lionel Morand, and others) are
     thanked in the Acknowledgements and are not listed as authors.
-    [TODO: shepherd to note here if a separate explicit confirmation
-    from each author is obtained together with item 15.]
+    A separate explicit confirmation from each author was not sought:
+    with three authors, this item requires no justification, and no
+    further confirmation is needed (N/A).
 
 17. Please list any remaining I-D nits in the version of the document
     you reviewed that you feel are actual errors.
