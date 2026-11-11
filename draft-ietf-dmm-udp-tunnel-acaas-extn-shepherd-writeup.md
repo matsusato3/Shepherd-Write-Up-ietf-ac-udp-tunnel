@@ -9,8 +9,7 @@ Format: version dated 9 October 2026
 
 Note: this draft uses the shepherd write-up format dated 9 October 2026.
 The explanatory text of that template has been removed, as the template
-instructs. Items marked [TODO] need the shepherd's own confirmation
-before this write-up is entered into the Datatracker.
+instructs.
 
 For context: this document specifies a YANG data model extension that
 adds a Layer 3 UDP tunnel as a bearer type to the Attachment Circuit
@@ -112,11 +111,13 @@ the document.
    of the required reviews are missing.
 
    The applicable formal expert review is the YANG Doctors review,
-   because the document consists mainly of a YANG module. [TODO:
-   record the status of the YANG Doctors review. No completed YANG
-   Doctors review of a recent version is recorded in this draft; if
-   none has been done, it is the one required review still missing,
-   to be requested at publication request.] The document defines no
+   because the document consists mainly of a YANG module. No YANG
+   Doctors review has been done: the shepherd asked the authors on
+   3 November 2026, and John Kaippallimalil replied on 11 November
+   2026 that a YANG Doctors review "has not been requested as far
+   as I know". It is therefore the one required review still
+   missing, to be requested at publication request. The document
+   defines no
    MIB, media type, or new URI scheme; the XML namespace URI and YANG
    module name registrations are standard IANA registrations for a
    YANG module document (see item 22), so no separate media type or
@@ -134,8 +135,9 @@ the document.
    been verified as up to date, with YANG validation showing 0 errors
    and 0 warnings (message archived at
    https://mailarchive.ietf.org/arch/msg/dmm/ubzIOea3A89UEIYiDlMst5p-LRc/).
-   YANG Doctors review: see item 6 — [TODO: status to be recorded;
-   not recorded as completed in this draft.] On templates: yes, in
+   YANG Doctors review: see item 6 — not yet requested or done; it
+   is the required review still missing, to be requested at
+   publication request. On templates: yes, in
    substance. The Security Considerations state that the section is
    modelled after the template described in Section 3.7 of RFC 9907;
    the YANG module carries the Revised BSD License text in its
@@ -156,11 +158,10 @@ the document.
    0 errors and 0 warnings (see item 7); WG review of the YANG
    structure, including by the reviewers named in item 5; and idnits
    2.17.1 run on -03 on 25 October 2026 (see item 17).
-   [TODO: shepherd to describe own review — suggested text: "The
-   shepherd reviewed the -01 text during WGLC and the -02/-03 deltas,
-   checked the YANG module against RFC 9833/RFC 9834, and verified
-   that the WGLC comments raised on the list were addressed."] There
-   are no ABNF, ASN.1, or CDDL sections.
+   The shepherd reviewed the -01 text during WGLC and the -02/-03
+   deltas, checked the YANG module against RFC 9833/RFC 9834, and
+   verified that the WGLC comments raised on the list were addressed.
+   There are no ABNF, ASN.1, or CDDL sections.
 
 9. Does the document describe any protocol elements that are intended
    for human interpretation and understanding? If so, does the
@@ -235,12 +236,12 @@ the document.
     RFC 2119 boilerplate, which is also the single error reported by
     idnits (see item 17). The keyword use itself is clear and
     appropriate in context — it states an access-control obligation
-    for management servers — but the missing boilerplate and
-    reference should be fixed, or explicitly confirmed as acceptable.
-    [TODO: authors to add the RFC 2119 boilerplate and reference in a
-    next revision, or confirm the keyword use is acceptable as-is;
-    this is one of the three questions in the drafted, not yet sent,
-    confirmation mail to the authors.] No other unclear or
+    for management servers — but the boilerplate and reference are
+    missing. The shepherd asked the authors about this on 3 November
+    2026, and John Kaippallimalil replied on 11 November 2026 that
+    he will add the RFC 2119 boilerplate and reference in the next
+    revision (-04), to be uploaded when the submission window
+    reopens (he indicated 14 November). No other unclear or
     inappropriate BCP 14 use was identified.
 
 15. Confirm that reasonable efforts have been made to remind the WG
@@ -255,10 +256,13 @@ the document.
     two of the three authors confirmed that they are not aware of any
     IPR applicable to this document: Uma Chunduri stated "Not aware
     of any IPRs on this document", and Luis M. Contreras stated that
-    he was "not being aware of any IPR applicable to it". [TODO:
-    obtain the same confirmation from the remaining author, John
-    Kaippallimalil, whose WGLC reply expressed support but did not
-    address IPR.] No IPR disclosures have been filed referencing
+    he was "not being aware of any IPR applicable to it". The
+    remaining author, John Kaippallimalil, whose WGLC reply had
+    expressed support without addressing IPR, confirmed on
+    11 November 2026, in reply to the shepherd's question of
+    3 November 2026, that he is not aware of any IPR on this
+    document. All three authors have now given this confirmation.
+    No IPR disclosures have been filed referencing
     this document: the shepherd verified this in the Datatracker
     IPR search on 3 November 2026, which returned no disclosures
     for the document. No other IPR discussion has taken place on
